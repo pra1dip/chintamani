@@ -1,0 +1,141 @@
+.NetworkMainContainer {
+  background-color: #eaeae9;
+  width: 100%;
+  padding-bottom: 20px;
+  height: max-content;
+}
+
+.NetworkContainer {
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: 50% 48%;
+  width: 90%;
+  margin: auto;
+  gap: 50px;
+  height: 50%;
+  align-items: center;
+}
+
+.NetWorkp1 {
+  color: #9a3333;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.NetWorkp2 {
+  color: #fab115;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+
+.netWorkSilderShow{
+  margin-top: 20px;
+}
+
+
+.NetWorkp3 {
+  color: gray;
+  line-height: 23px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.NetWorkCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.NetWorkCardsContainer div {
+  background-color: #7c1516;
+  color: #eaeae9;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  padding: 10px;
+}
+
+.NetworkAmount {
+  font-size: 56px;
+  color: #fab115;
+  font-weight: bold;
+}
+
+.NetworkAmount + p {
+  font-size: 19px;
+}
+
+
+.CupMapContainer {
+    width: 90%;
+    margin: auto;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 48% 49%;
+    gap: 100px;
+    margin-top: 100px;
+    /* background-color: #7c1516; */
+  }
+
+  @media screen and (max-width: 960px) {
+    .NetworkContainer {
+      display: grid;
+      grid-template-columns: 1fr ;
+       grid-template-rows: auto;
+      width: 90%;
+      margin: auto;
+      gap: 50px;
+      height: 50%;
+      align-items: center;
+    }
+    .mapNetworkimg{
+      width: 320px;
+      margin-top:20px ;
+    }
+
+    .CupMapContainer {
+      width: 90%;
+      margin: auto;
+      height: 50%;
+      display: grid;
+      grid-template-columns:1fr;
+      grid-template-rows: auto;
+      width: 90%;
+      gap: 100px;
+      /* background-color: #7c1516; */
+    }
+    .NetWorkCardsContainer div {
+      background-color: #7c1516;
+      color: #eaeae9;
+      height: 110px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 5px;
+      /* padding: 10px; */
+    }
+    .NetWorkCardsContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 150px);
+      grid-template-rows: auto;
+      gap: 10px;
+    }
+
+    .NetworkAmount {
+      font-size: 29px;
+      color: #fab115;
+      font-weight: bold;
+    }
+    
+    .NetworkAmount + p {
+      font-size: 15px;
+    }
+
+  }

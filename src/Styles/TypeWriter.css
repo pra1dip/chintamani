@@ -1,0 +1,107 @@
+#TypeWriterContainer {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size:30px;
+  color: aliceblue;
+  display: flex;
+  width: 600px;
+  
+}
+.TypeHeadContainerHead>p{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: aliceblue;
+}
+
+.TypeWriterContainerMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    gap: 200px;
+    align-items: center;
+}
+
+.MainTypeWriter {
+  width: 100%;
+  height: max-content;
+  padding-bottom: 20px;
+  background-color:#7c1516 ;
+}
+
+#TypeHeadContainerHeadpp{
+    color: #fab115;
+}
+
+.KitaliImg img{
+    width: 420px;
+    margin-top: 10px;
+}
+
+
+
+.para2p {
+    margin-top: 40px;
+   
+}
+.para2p p{
+    line-height:24px;
+    color: aliceblue;
+    font-weight: 600;
+   
+}
+
+
+@media screen and (max-width: 960px) {
+    .TypeWriterContainerMain{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        width: 90%;
+        margin: auto;
+        
+       
+    }
+
+    #TypeWriterContainer {
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size:18px;
+        color: aliceblue;
+        display: flex;
+        width: 300px;
+        
+        /* position: absolute; */
+      }
+
+      .para2p p{
+        line-height:24px;
+        color: aliceblue;
+        font-size: 13px;
+        font-weight: 600;
+        /* width: 200px; */
+       
+    }
+
+    .KitaliImg img{
+        width: 300px;
+        margin-top: 10px;
+        margin-top: -180px;
+    }
+
+    .TypeHeadContainerHead>p{
+        font-family: sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        color: aliceblue;
+       
+    }
+    .TypeHeadContainerHead
+    {
+        margin-top: 30px;
+    }
+    
+    
+
+}

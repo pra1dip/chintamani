@@ -1,0 +1,341 @@
+.OurProducts {
+  margin-top: 1100px;
+  /* background-color: ; */
+  position: absolute;
+  width: 100%;
+  height: max-content;
+}
+.OurProductsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.OurProductsCharecterimg {
+  width: 500px;
+  /* margin-top: 60px; */
+}
+
+.OurProductsInfoHeadf {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.OurProductsInfo {
+  margin-top: 30px;
+}
+
+.OurProductsHeads {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fab115;
+}
+
+.OurProductsHeadpara {
+  line-height: 23px;
+  word-spacing: 3px;
+  margin-top: 20px;
+  color: rgb(156, 68, 68);
+}
+
+/* //////////////mainProducts Section ///////////////////// */
+.ProductCards img {
+  width: 290px;
+  border-radius: 10px;
+}
+
+.MainProductsContainer {
+  margin-top: 30px;
+}
+
+.mainProductsCardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+  width: 90%;
+  /* column-gap: 5px;*/
+  row-gap: 6px;
+  margin: auto;
+}
+/* /////////////////setupackimg////////////////////////////// */
+.setupbackImg img {
+  width: 100%;
+
+  position: absolute;
+  z-index: -1;
+}
+
+.overBlack {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 540px;
+  width: 100%;
+  /* position: relative; */
+}
+
+.setUp {
+  position: relative;
+  margin-top: 30px;
+}
+
+.overlayText {
+  position: absolute;
+  top: 60px;
+  /* text-align: center; */
+}
+
+.overlayTextContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  color: white;
+  gap: 100px;
+}
+.overlayTextContainer {
+  margin-top: 30px;
+}
+.overlayTextContainer div ul li {
+  background-image: url("../Assets/OurProducts/arrow-27-512.png");
+  background-size: 17px;
+  background-repeat: no-repeat;
+  list-style: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  margin-top: 12px;
+  background-position: left center;
+}
+
+/* .overlayTextContainer div ul li::before{
+ 
+  display: inline-block;
+  height: y;
+  width: x;
+  background-image: url("../Assets/OurProducts/arrow-27-512.png");
+} */
+
+.MainOverLayTextContainer {
+  margin: auto;
+  width: 80%;
+}
+
+.OverlayContainerHead {
+  text-align: center;
+}
+
+.OverlayHp {
+  font-size: 38px;
+  font-weight: bold;
+  color: #9a3333;
+  font-size: 38px;
+}
+
+.OverlayNexttHp {
+  margin-top: 10px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+/* ///////////////////secsetup///////////////////// */
+
+.SecondStup {
+  width: 100%;
+  height: 500px;
+}
+
+.SecondStupContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  width: 80%;
+  gap: 100px;
+  margin-top: 20px;
+  /* font-size: 18px; */
+}
+
+.SecondStupContainer div ul li {
+  background-image: url("../Assets/OurProducts/arrow-27-512.png");
+  background-size: 17px;
+  background-repeat: no-repeat;
+  list-style: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: gray;
+  margin-top: 0px;
+  background-position: left center;
+}
+
+@media screen and (max-width: 960px) {
+  .OurProducts {
+    margin-top: 1200px;
+  }
+  .OurProductsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .OurProductsHeads {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fab115;
+  }
+
+  .OurProductsHeadpara {
+    line-height: 23px;
+    margin-top: 20px;
+    color: rgb(17, 6, 6);
+  }
+  .OurProductsInfoHeadf {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  .HeaderSction {
+    margin-top: 550px;
+    background-color: #9a3333;
+    position: absolute;
+    width: 100%;
+    height: 650px;
+  }
+
+  .OurProductsCharecterimg {
+    width: 300px;
+    /* margin-top: -1px; */
+  }
+
+  /* /////////////main Products Section/////////////////// */
+
+  .ProductCards img {
+    width: 260px;
+    border-radius: 10px;
+  }
+
+  .MainProductsContainer {
+  }
+
+  .mainProductsCardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+
+    width: 90%;
+
+    row-gap: 6px;
+    /* margin-left:40px; */
+  }
+
+  .mainProductsCardContainer div {
+    margin: auto;
+  }
+
+  /* ///////////////////setup////////////////////////// */
+
+  .setupbackImg img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .setUp {
+    position: relative;
+  }
+  .overBlack {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 740px;
+    width: 100%;
+    /* position: relative; */
+  }
+
+  .setUp {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .overlayText {
+    position: absolute;
+    top: 30px;
+  }
+
+  .overlayTextContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    color: white;
+  }
+  .overlayTextContainer {
+    margin-top: 30px;
+  }
+  .overlayTextContainer div ul li {
+    background-image: url("../Assets/OurProducts/arrow-27-512.png");
+    background-size: 13px;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 13px;
+    margin-top: 1px;
+    background-position: left center;
+  }
+
+  .MainOverLayTextContainer {
+    margin: auto;
+    width: 90%;
+  }
+
+  .OverlayContainerHead {
+    /* text-align: center; */
+  }
+
+  .rightSidetextContainer {
+    margin-top: -96px;
+  }
+
+  .OverlayHp {
+    font-weight: bold;
+    color: #9a3333;
+    font-size: 26px;
+  }
+
+  .OverlayNexttHp {
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 16px;
+  }
+
+  /* ///////////////////secsetup///////////////////// */
+
+  .SecondStup {
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid pink; */
+  }
+
+  .SecondStupContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+    width: 90%;
+    gap: 100px;
+    margin-top: 10px;
+    /* font-size: 18px; */
+  }
+
+  .SecondStupContainer div ul li {
+    background-image: url("../Assets/OurProducts/arrow-27-512.png");
+    background-size: 13px;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 13px;
+    /* margin-top: 1px; */
+    background-position: left center;
+  }
+
+  .rightSecondStupContainer{
+    margin-top: -100px;
+  }
+}

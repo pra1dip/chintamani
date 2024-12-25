@@ -1,0 +1,73 @@
+
+
+
+.Quality{
+    display: none;
+}
+
+.ReactWhatsApp{
+   position: fixed;
+   z-index: 1;
+   right: 2%;
+   bottom: 3%;
+   border-radius: 50%;
+   
+}
+.ReactWhatsapptext{
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ReactWhatsAppicon{
+    background-color: #25d366;
+     color: white;
+     border-radius: 50%;
+}
+
+.MdWifiCalling3{
+    color: white;
+}
+
+.callOnMobile{
+    position: fixed;
+    z-index: 1;
+    right: 2%;
+    bottom: 13%;
+    width: 40px;
+    border: 3px solid white;
+    height: 40px;
+    padding: 4px;
+    background-color:#0982c6;
+    border-radius:48%;
+}
+
+@media screen and (max-width: 960px) {
+    
+.Quality{
+    display: block;
+    margin-top: 190px;
+    height: 360px;
+    width: 100% ;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    padding-top: 14px;
+
+}
+
+.QualityPara{
+    font-size: 26px;
+    color: #9a3333;
+    font-weight: bold;
+}
+.QualityImgimg{
+    width: 160px;
+    margin-top: 10px;
+}
+.nexparaqua{
+    color: #fab115;
+}
+}

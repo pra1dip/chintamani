@@ -1,0 +1,147 @@
+.GalleryIntrorightimg{
+    width: 400px;
+   
+}
+.MainGalleryContainer{
+    width: 100%;
+}
+
+.galleryContainer{
+    height: 500px;
+    width: 100%;
+    background-color: #9a3333;
+}
+
+.GalleryIntro{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    height: 85%;
+    grid-template-columns: 55% 42%;
+    gap:0px;
+    align-items: center;
+}
+
+.headGallery{
+    font-size: 56px;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headGallery1{
+    margin-top: 30px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+.headGallery2{
+    margin-top: 20px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.photoGallery{
+    background-color: aliceblue;
+    width: 100%;
+    height:max-content;
+}
+
+.photoGalleryContainer{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 10px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    
+}
+
+.photoGalleryContainer div{
+   border: 4px solid #9a3333;
+   height: 259px;
+   border-radius: 10px;
+   
+}
+.photoGalleryContainer div img{
+    width: 100%;
+    height: 251px;
+    
+    object-fit: cover;
+}
+
+.PHOTOGALLERY{
+    font-weight: bold;
+    font-size: 56px;
+    color: #9a3333;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+    .GalleryIntro{
+        margin: auto;
+        width: 90%;
+        display: grid;
+        height: max-content;
+        grid-template-columns:1fr;
+       
+        align-items: center;
+    }
+    .galleryContainer{
+        height: 550px;
+        width: 100%;
+        background-color: #9a3333;
+    }
+    
+
+    .GalleryIntrorightimg{
+        width: 250px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .headGallery{
+      margin-top: 30px;
+        font-size: 46px;
+        color: white;
+        letter-spacing: 4px;
+        font-weight: bold;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .headGallery1{
+        font-size: 14px; 
+        line-height: 20px;   
+    }
+    
+    .headGallery2{
+       font-size: 14px;
+       line-height: 20px;   
+    }
+
+
+    .photoGalleryContainer{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns:1fr;
+        grid-template-rows:auto;
+        gap: 10px;
+        padding-top:20px ;
+        padding-bottom: 20px;
+        
+    }
+    
+    .PHOTOGALLERY{
+        font-weight: bold;
+        font-size: 36px;
+        color: #9a3333;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+}

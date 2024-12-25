@@ -1,0 +1,131 @@
+.MainConnectContainer {
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.ConnectContainer {
+  text-align: center;
+}
+
+.ConnectHead P {
+  font-weight: bold;
+  font-size: 56px;
+  color: #9a2c29;
+}
+
+.ConnectColor {
+  color: #fab115;
+}
+.ContactDivs {
+  margin-top: 35px;
+}
+
+.NameContactInput div input {
+  width: 500px;
+  height: 42px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: gray;
+  padding-left: 20px;
+  outline: none;
+  border-color: #9a3333;
+  border-radius: 10px;
+  border-width: 0.5px;
+}
+
+.NameContactInput div {
+  margin-top: 24px;
+}
+
+::placeholder {
+  color: rgb(211, 205, 205);
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+}
+
+.NameContactInput {
+  margin-top: 24px;
+}
+
+#TEXTaREA {
+  width: 500px;
+  height: 82px;
+  padding-top: 14px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: gray;
+  padding-left: 20px;
+  outline: none;
+  border-color: #9a3333;
+  border-radius: 10px;
+  border-width: 0.5px;
+  margin-top: 25px;
+}
+
+.ConnectBtn {
+  width: 500px;
+  height: 52px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  background-color: #9a3333;
+  border: none;
+  border-radius: 10px;
+  border-width: 0.5px;
+
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 960px) {
+  .NameContactInput div input {
+    width: 280px;
+    height: 39px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: gray;
+    padding-left: 20px;
+    border-color: #9a3333;
+    border-radius: 10px;
+    border-width: 0.5px;
+    outline: none;
+  }
+
+  .ConnectBtn {
+    width: 280px;
+    height: 52px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    background-color: #9a3333;
+    border: none;
+    border-radius: 10px;
+    border-width: 0.5px;
+
+    margin-top: 20px;
+  }
+
+  #TEXTaREA {
+    width: 280px;
+    height: 62px;
+    padding-top: 14px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: gray;
+    padding-left: 20px;
+    outline: none;
+    border-color: #9a3333;
+    border-radius: 10px;
+    border-width: 0.5px;
+    margin-top: 20px;
+  }
+
+  .ConnectHead P {
+    font-weight: bold;
+    font-size: 46px;
+    color: #9a2c29;
+  }
+}
